@@ -1,6 +1,6 @@
 from models import ToDoModel
 from modelResults import prediction,prediction_contact
-
+from trainModel import createmodel_Contact,createmodel_Wholesale
 class ToDoService:
     def __init__(self):
         self.model = ToDoModel()
@@ -25,3 +25,17 @@ def model(params):
 def modelContact(params):
     print(params)
     return prediction_contact(params)
+
+def trainModelContact():
+    try:
+        createmodel_Contact()
+        return 0
+    except:
+        return -1
+
+def trainModelWH():
+    try:
+        createmodel_Wholesale()
+        return 0
+    except:
+        return -1

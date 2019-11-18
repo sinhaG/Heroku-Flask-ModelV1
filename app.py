@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from service import ToDoService
 from models import Schema
 import os
-from service import model,modelContact
+from service import model,modelContact,trainModelContact,trainModelWH
 import json
 
 app = Flask(__name__)
@@ -53,6 +53,15 @@ def clustering():
 @app.route("/todo/contactModel", methods=["POST"])
 def clustering_contact():
     return jsonify(modelContact(request.get_json()))
+
+@app.route("/todo/traincontactModel", methods=["GET"])
+def traincontactModel():
+    return jsonify(trainModelContact())
+
+@app.route("/todo/trainWhModel", methods=["GET"])
+def trainWhModel():
+    return jsonify(trainModelWH())
+
 
 if __name__ == "__main__":
     Schema()
