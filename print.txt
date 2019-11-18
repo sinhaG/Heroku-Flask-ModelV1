@@ -1,0 +1,934 @@
+    1  git
+    2  sudo apt install git
+    3  source ~/.bashrc
+    4  kaggle
+    5  pip install kaggle
+    6  pip
+    7  source ~/.bashrc
+    8  kaggle
+    9  cd Desktop
+   10  cd Kaggle
+   11  kaggle competitions download -c new-york-city-taxi-fare-prediction
+   12  cd..
+   13  cd
+   14  cp /Downloads/kaggle.json /home/gsinha/.kaggle/
+   15  cp
+   16  cp --help
+   17  cd Downloads
+   18  ls
+   19  cp kaggle.json /home.gsinha/.kaggle/
+   20  cp kaggle.json ~/.kaggle/kaggle.json
+   21  chmod 600 ~/.kaggle/kaggle.json
+   22  cd Desktop
+   23  cd 
+   24  cd Desktop
+   25  cd Kaggle
+   26  kaggle competitions download -c new-york-city-taxi-fare-prediction
+   27  sudo apt-get install geoclue-2.0
+   28  source ~/.bashrc
+   29  redshift
+   30  redshift-gtk
+   31  ls
+   32  cd Downloads
+   33  tar xvfz xflux64.tgz 
+   34  ls
+   35  cd xflux
+   36  ./configure
+   37  tar -xvzf xflux64.tgz 
+   38  sudo cp xflux /usr/bin/
+   39  sudo chmod 755 /usr/bin/xflux
+   40  xflux -I 33.55 -g 44.55
+   41  xflux -I 33.55, -g 44.55
+   42  bash Anaconda3-2018.12-Linux-x86_64.sh 
+   43  anaconda-navigator
+   44  sourcs ~/.bashrc
+   45  source ~/.bashrc
+   46  anaconda-navigator
+   47  pip install --user kaggle
+   48  kaggle competitions download -c new-york-city-taxi-fare-prediction
+   49  cd Desktop
+   50  cd Kaggle
+   51  kaggle competitions download -c new-york-city-taxi-fare-prediction
+   52  anaconda-navigator
+   53  cd Desktop/
+   54  cd Andrew\ NG\ ML\ course/
+   55  cd Deep\ Learning\ Ai/
+   56  ls
+   57  mkdir excerise
+   58  cd excerise/
+   59  mkdir week4
+   60  git init
+   61  git add readme.md
+   62  git add README.md
+   63  git add week4
+   64  git commit -m "first commit"
+   65  git config --global user.email "grv.sinha@gmail.com"
+   66  git config --global user.name " gaurav sinha"
+   67  git commit -m "first commit"
+   68  git remote add origin https://github.com/sinhaG/DeepLearningAI.git
+   69  git push -u origin master
+   70  git login
+   71  git --help
+   72  git push -u origin master
+   73  git commit -m "first commit"
+   74  git push -u origin master
+   75  git push  origin master
+   76  git remote add origin https://github.com/sinhaG/DeepLearningAI.git
+   77  git push  origin master
+   78  git push -u origin master
+   79  echo "# DeepLearningAI" >> README.md
+   80  git init
+   81  git add README.md
+   82  git commit -m "first commit"
+   83  git remote add origin https://github.com/sinhaG/DeepLearningAI.git
+   84  git push -u origin master
+   85  git add week4
+   86  git push -u origin master
+   87  git .
+   88  git status
+   89  git add .
+   90  git add *
+   91  git commit -m "second Comit"
+   92  git status
+   93  git push -u origin master
+   94  git status
+   95  git add *
+   96  git commit -m "third Comit"
+   97  git push -u origin master
+   98  git config --global credential.helper cache
+   99  git config --global credential.helper 'cache --timeout=3600'
+  100  git push -u origin master
+  101  git status
+  102  git add *
+  103  git commit -m "week 3 added"
+  104  git push -u origin master
+  105  git add *
+  106  git commit -m "Restructuring "
+  107  git push -u origin master
+  108  ls
+  109  git --help
+  110  git log
+  111  gnome-system-monitor
+  112  code
+  113  anaconda-navigator
+  114  gnome-sys-monitor
+  115  pip install geopy
+  116  cd Desktop/
+  117  ls
+  118  cd Andrew\ NG\ ML\ course/
+  119  cd Deep\ Learning\ Ai/
+  120  ls
+  121  git status
+  122  cd excerise/
+  123  git status
+  124  git add *
+  125  git status
+  126  git commit "Course 2 Added"
+  127  git commit "Course2"
+  128  git status
+  129  git log
+  130  git 
+  131  git rm--help
+  132  git rm --help
+  133  git commit 
+  134  git push -u origin master
+  135  anaconda-navigator
+  136  ls
+  137  cd Desktop/
+  138  ls
+  139  cd Andrew\ NG\ ML\ course/
+  140  cd Deep\ Learning\ Ai/
+  141  ls
+  142  git -log
+  143  git status
+  144  ls
+  145  cd excerise/
+  146  git status
+  147  git add .
+  148  git status
+  149  git commit "Week 2 Course 2 completed"
+  150  git commit "Week2Cours 2completed"
+  151  git push -u origin master
+  152  git commit "week2 commetie"
+  153  git add *
+  154  git commit "week2 commetie"
+  155  git commit 
+  156  git push -u origin master
+  157  anaconda-navigator
+  158  conda install -c fastai fastai
+  159  jupyter notebook
+  160  cd Desktop/DS\ WORS/
+  161  jupyter notebook
+  162  cd Documents/
+  163  ls
+  164  cdd ..
+  165  cd ..
+  166  cd Downloads/
+  167  ls
+  168  tar --help
+  169  ls 
+  170  tar xf smartgit-linux-18_2_5.tar.gz 
+  171  cd smartgit/
+  172  ./configure
+  173  configure
+  174  .configure
+  175  cd ..
+  176  ./configure
+  177  cd smartgit/
+  178  make
+  179  ls
+  180  cd bin
+  181  run smartgit
+  182  sudo apt install smartgit
+  183  ./smartgit.sh 
+  184  ls
+  185  cd Desktop/Salesforce/
+  186  mkdir AtriumDemo
+  187  cd AtriumDemo/
+  188  mkdir Salespipeline
+  189  cd Salespipeline/
+  190  git clone https://gsinha-atrium@bitbucket.org/atriumai/atriumdemos.git
+  191  git pull
+  192  ls
+  193  cd atriumdemos/
+  194  git pull
+  195  git checkout -b SalespipelineDemo
+  196  git push origin SalespipelineDemo
+  197  git branch -1
+  198  git branch -a
+  199  git add *
+  200  git status
+  201  git commit "SalesPipeline Demo"
+  202  git commit "SalesPipelineDemo"
+  203  git remote add Salespipe SalespipelineDemo
+  204  git push Salespipe SalespipelineDemo
+  205  git push - u Salespipe SalespipelineDemo
+  206  git push -u Salespipe SalespipelineDemo
+  207  git branch
+  208  git push -u Salespipe SalespipelineDemo
+  209  git push -u origin SalespipelineDemo
+  210  git status
+  211  git branch | grep \* | cut -d ' ' -f2
+  212  git push -u Salespipe SalespipelineDemo
+  213  git push -u Salespipe 'SalespipelineDemo'
+  214  git remote -v
+  215  git push -u Salespipe 'SalespipelineDemo'
+  216  git add *
+  217  git status
+  218  git rm --help
+  219  git push -u Salespipe 'SalespipelineDemo'
+  220  git branch | grep \* | cut -d ' ' -f2
+  221  ls
+  222  git status
+  223  git commit "as"
+  224  git commit 
+  225  git push -u Salespipe 'SalespipelineDemo'
+  226  git status
+  227  git push -u origin SalespipelineDemo
+  228  git remote -v
+  229  conda insatll -c pytorch -c fatsai fastai
+  230  conda install -c pytorch -c fatsai fastai
+  231  pip install pytorch
+  232  ls
+  233  cd Downloads/
+  234  tar xf sfdx-linux-amd64.tar.xz 
+  235  ./configure
+  236  sudo make install
+  237  cs sfdx-cli-v6.53.0-67a9cbb60c-linux-x64/
+  238  cd sfdx-cli-v6.53.0-67a9cbb60c-linux-x64/
+  239  make
+  240  sudo make install
+  241  install
+  242  cd..
+  243  cd.
+  244  cd .
+  245  cd :
+  246  cd ..
+  247  ./install
+  248  cd sfdx-cli-v6.53.0-67a9cbb60c-linux-x64/
+  249  cd ..
+  250  mkdir sfdx
+  251  tar xJf sfdx-linux-amd64.tar.xz -C sfdx --strip-components 1
+  252  ./sfdx/install
+  253  sfdx --version
+  254  sfdx plugins
+  255  sfdx plugins --core
+  256  sfdx plugins:install
+  257  sfdx force --jelp
+  258  sfdx force --help
+  259  sfdx plugins --help
+  260  sfdx force --help
+  261  juyter notebook
+  262  jupyter notebook
+  263  sfdx force:lightning:component:create -n myFirstWebComponent -d force-app/main/default/lwc --type lwc
+  264  sfdx force:source:push
+  265  sfdx force:org:open
+  266  sfdx -version
+  267  sfdx --version
+  268  sfdx force:config:set defaultdevhubusername=beattie@gaurav.com
+  269  ls
+  270  cd Desktop/Salesforce/trailhead/
+  271  ls
+  272  sfdx force:config:set defaultdevhubusername=beattie@gaurav.com
+  273  sfdx --help
+  274  sfdx force --help
+  275  sfdx force:alias
+  276  sfdx force:alias:list
+  277  ls
+  278  cd ..
+  279  mkdri ebikes
+  280  mkdir ebikes
+  281  cd ebikes/
+  282  sfdx force:auth:web:login -d -a vscodeorg
+  283  git clone https://github.com/trailheadapps/ebikes-lwc
+  284  cd ebikes-lwc/
+  285  sfdx force:org:create -s -f config/project-scratch-def.json -a ebikes
+  286  sfdx force:source:push
+  287  sfdx force:user:permset:assign -n bikes
+  288  sfdx force:user:permset:assign -n ebikes
+  289  sfdx force:data:tree:import --plan ./data/sample-data-plan.json 
+  290  sfdx force:org --help
+  291  sfdx force:org:list
+  292  sfdx force:org:open
+  293  sfdx:source:deploy -p force-app -u beattie@gaurav.com
+  294  sfdx force:source:deploy -p force-app -u beattie@gaurav.com
+  295  sfdx force:user:permset:assgn -n ebikes -u beattie@gaurav.com
+  296  sfdx force:user:permset:assign -n ebikes -u beattie@gaurav.com
+  297  sfdx force:source:push
+  298  sfdx force:source:deploy -p force-app -u gaurav@beattie.com
+  299  sfdx force:source:deploy -p force-app -u beattie@gaurav.com
+  300  sfdx force:source:deploy -p force-app/main/default/lwc -u gaurav@beattie.com
+  301  sfdx force:source:deploy -p force-app/main/default/lwc -u beattie@gaurav.com
+  302  sfdx force:org:list
+  303  sfdx force:org open ebikes
+  304  sfdx force:org:open ebikes
+  305  sfdx force:org:open --help
+  306  sfdx force:org:open -u ebikes
+  307  sfdx force:org --help
+  308  sfdx force:org:snapshot:get -u ebikes
+  309  sfdx force:org:snapshot:get  ebikes
+  310  sfdx force:org:snapshot:get  --help
+  311  sfdx force:org:snapshot:get  -v ebikes
+  312  sfdx force:org:snapshot:get  -s  00DO000000564ZcMAI
+  313  sfdx force:org:snapshot:list
+  314  sfdx force:source:deploy -p force-app/main/default/lwc -u beattie@gaurav.com
+  315  sfdx force:source:deploy -p force-app/main/default/lwc -u ebikes
+  316  sfdx force:source:push
+  317  sfdx force:org:list
+  318  sfdx force:org --help
+  319  sfdx force:deploy
+  320  sfdx force --help
+  321  sfdx force:source --help
+  322  sfdx force:source status
+  323  sfdx force:source:status
+  324  sfdx force:source:push --help
+  325  sfdx force:source:push
+  326  sfdx force:source:push --help
+  327  sfdx force:source:deploy -p force-app/main/default/lwc -u beattie@gaurav.com
+  328  sfdx force:source
+  329  sfdx force:sourcee:source:status
+  330  sfdx force:source:status
+  331  sfdx force:source:open
+  332  sfdx force:source:open --help
+  333  sfdx force:source:open -u beattie@gaurav.com
+  334  sfdx force:source:open -u Beattie@gaurav.com
+  335  ls
+  336  sfdx force:source:open -f force-app/main/default/flexipages/Account_Record_Page.flexipage-meta.xml -u Beattie@gaurav.com
+  337  sfdx force:auth --help
+  338  sfdx force:auth:web --help
+  339  sfdx force:auth:we:loginb --help
+  340  sfdx force:auth:we:login
+  341  sfdx force:auth:web:login
+  342  sfdx force:source:open -f force-app/main/default/flexipages/Account_Record_Page.flexipage-meta.xml -u Beattie@gaurav.com
+  343  sfdx force:config:set defaultusername=Beattie@gaurav.com
+  344  sfdx force:config:set defaultusername=beattie@gaurav.com
+  345  sfdx force:source:open -f force-app/main/default/flexipages/Account_Record_Page.flexipage-meta.xml -u Beattie@gaurav.com
+  346  sfdx force:source:open -f force-app/main/default/flexipages/Account_Record_Page.flexipage-meta.xml -u beattie@gaurav.com
+  347  sfdx force:source:open -f force-app/main/default/classes/OrderController.cls -u beattie@gaurav.com
+  348  sfdx force:source:open -f force-app/main/default/classes/OrderController.cls-meta.xml -u beattie@gaurav.com
+  349  git 
+  350  clear
+  351  cd Desktop/
+  352  ls
+  353  ls --help
+  354  ls -d
+  355  ls -g
+  356  ls --g
+  357  mkdir gitWork
+  358  cd gitWork/
+  359  mkdir netApp
+  360  cd netApp/
+  361  git init
+  362  vi s1
+  363  cat s1
+  364  la
+  365  graph
+  366  git graph
+  367  git config --global user.name "Gaurav Sinha"
+  368  git config --local user.email "grv.sinha@gmail.com"
+  369  git status
+  370  git add s1
+  371  git status
+  372  git commit -m "s1 added"
+  373  v1 s2
+  374  vi s2
+  375  cuda --version
+  376  cuda
+  377  conda --version
+  378  clear
+  379  conda --version
+  380  conda install pytorch-cpu torchvison-cpu -c pytorch
+  381  jupyter notebook
+  382  sfdx force:org:list
+  383  sfdx force:org:open
+  384  sfdx force:org --help
+  385  sfdx force:auth --help
+  386  sfdx force:auth:web:login --help
+  387  sfdx force:auth:web:login -a ASEIPROD
+  388  cd Desktop/Salesforce/
+  389  ls
+  390  cd Atrium Internal Project
+  391  cd "Atrium Internal Project"
+  392  ls
+  393  sfdx force:mdapi:retrieve --help
+  394  sfdx force:mdapi:retrieve -r ./mdapipkg -u $1 -k $2
+  395  sfdx force:mdapi:retrieve -r ./mdapipkg -u ASEIPROD -k package.xml 
+  396  unzip -0 -qq ./mdapipkg/unpackaged.zip -d ./mdapipkg/
+  397  unzip -o -qq ./mdapipkg/unpackaged.zip -d ./mdapipkg/
+  398  rm -rf ./mdapipkg/unpackaged.zip 
+  399  cp -a ./mdapipkg/unpackaged/* ./force-app/main/default/
+  400  rm -rf ./mdapipkg/*
+  401  rm -rf ./mdapipkg
+  402  cd ..
+  403  mkdir dreamhouse
+  404  cd dreamhouse/
+  405  git clone https://github.com/dreamhouseapp/dreamhouse-sfdx.git
+  406  git checkout -b gsinhaversion1
+  407  cd dreamhouse-sfdx/
+  408  git checkout -b gsinhaversion1
+  409  sfdx forec:og.list
+  410  sfdx force:org.list
+  411  sfdx force:org:list
+  412  cat config/project-scratch-def.json
+  413  sfdx:force:org --help
+  414  sfdx force:org --help
+  415  sfdx force --help
+  416  sfdx force:alias --help
+  417  sfdx force:alias:list
+  418  sfdx force:org:create -s -f config/project-scratch-def.json  -a dreamhous-org
+  419  sfdx force:source:push
+  420  sfdx force:org:open
+  421  sfdx force:org:open -u ASEIPROD
+  422  sfdx force:user:permset:assign -n Dreamhouse
+  423  sfdx force:data:tree:import --plan data/sample-data-plan.json 
+  424  git --help
+  425  git bisect
+  426  git branch --help
+  427  cd Desktop/gitWork/
+  428  cd netApp/
+  429  git status
+  430  ls
+  431  vat .s2.swp 
+  432  cat .s2.swp 
+  433  rm .s2.swp 
+  434  ls
+  435  git status
+  436  vi s2
+  437  ls
+  438  git status
+  439  clear
+  440  vi s1
+  441  ls
+  442  git status
+  443  git diff
+  444  git status
+  445  git diff --staged
+  446  git commit -m "S2 new s1 edited"
+  447  git rm s2
+  448  git status
+  449  git commit
+  450  git log
+  451  git status
+  452  v1 s1
+  453  vi s1
+  454  git status
+  455  git --checkout
+  456  git checkout --s1
+  457  git checkout -- s1
+  458  git status
+  459  git diff
+  460  git lof --s2
+  461  git lof -- s2
+  462  git log -- s2
+  463  git checkout 74a34e
+  464  git checkout 74a34e --s2
+  465  git checkout 74a34e -- s2
+  466  git status
+  467  git head master
+  468  git checkout master
+  469  git status
+  470  ls
+  471  git checkout 74a34e -- s2
+  472  ls
+  473  git status
+  474  git commit -m "restore s2"
+  475  touch --help
+  476  ls
+  477  touch myapp.pyc
+  478  touch logs
+  479  touch logs/log1
+  480  mkdir logs
+  481  touch logs/log1
+  482  ls
+  483  vi .getignore
+  484  vi .gitignore
+  485  ls
+  486  git add .
+  487  git status
+  488  git commit -m "adding git ignore"
+  489  git clone https://gsinha-atrium@bitbucket.org/atriumai/asei.git
+  490  git add.
+  491  git --help
+  492  git status
+  493  cd asei
+  494  git status
+  495  git add --help
+  496  git add .
+  497  git status
+  498  git commit "master commit"
+  499  git commit as
+  500  git commit 'commit'
+  501  git commit --help
+  502  git commit -a -m master
+  503  git push --help
+  504  git push origin master
+  505  ls
+  506  cd Desktop/
+  507  ls
+  508  cd gitWork/
+  509  ls
+  510  cd netApp/
+  511  ls
+  512  git log -all --decorate -oneline --graph
+  513  git log
+  514  git log -all --decorate -oneline --graph
+  515  git log --all --decorate -oneline --graph
+  516  git log --all --decorate --oneline --graph
+  517  alias graph "git log --all --decorate --oneline --graph"
+  518  alias graph="git log --all --decorate --oneline --graph"
+  519  graph
+  520  jupyter notebook
+  521  git status
+  522  git clone https://gsinha-atrium@bitbucket.org/atriumai/goosehead-ed-ea.git
+  523  git status
+  524  git fetch
+  525  git clone https://gsinha-atrium@bitbucket.org/atriumai/goosehead-ed-ea.git
+  526  git fetch
+  527  git fetch && git checkout Discovery
+  528  git clone https://gsinha-atrium@bitbucket.org/atriumai/goosehead-ed-ea.git
+  529  git fetch && git checkout Discovery
+  530  git status
+  531  git fetch && git checkout Discovery
+  532  git add.
+  533  git add .
+  534  git status
+  535  git commmit -m "new Branch"
+  536  git commit -m "new Branch"
+  537  git push 
+  538  git add .
+  539  git commit -m "change in Readme"
+  540  git push 
+  541  git
+  542  git status
+  543  git status
+  544  cd goosehead-ed-ea/
+  545  git status
+  546  git add .
+  547  git status 
+  548  git add .
+  549  git commit -m "changes to datadlow and customf iel carrier bin"
+  550  git push
+  551  cd ..
+  552  git status
+  553  git add .
+  554  git status
+  555  git commit -m "New changes Dashboard Custom Field"
+  556  git push 
+  557  UcWVPsd94ekT6N5wA9LH
+  558  git push 
+  559  git status
+  560  gti add.
+  561  got add .
+  562  git add .
+  563  git status
+  564  git commit -m "changes in the Batch Class"
+  565  git push 
+  566  git status
+  567  git add .
+  568  git status
+  569  git commit -m "Dataflow adding the filter condition"
+  570  git push
+  571  jupyter-notebook 
+  572  jupyter
+  573  jupyter-notebook
+  574  onda install -c conda-forge fbprophet
+  575  conda install -c conda-forge fbprophet
+  576  import pandas as pd
+  577  pip list
+  578  conda update pandas
+  579  jupter-notebook
+  580  jupyter-notebook
+  581  python
+  582  git
+  583  pip3
+  584  heroku
+  585  sudo snap install heroku --classic
+  586  Atrium@1234
+  587  sudo snap install heroku --classic
+  588  heroku
+  589  sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+  590  pip3
+  591  brew install pip3
+  592  breq
+  593  brew
+  594  linuxbrew
+  595  brew
+  596  test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
+  597  test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+  598  test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
+  599  echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
+  600  test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
+  601  test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+  602  ls
+  603  cd..
+  604  cd .
+  605  cd
+  606  cd..
+  607  sudo apt-get install build-essential curl file git
+  608  brew
+  609  sudo apt install linuxbrew-wrapper
+  610  brew
+  611  del
+  612  ls
+  613  pip3
+  614  sudo apt install python3-pip
+  615  pip3 install pipenv
+  616  ls
+  617  cd Desktop/
+  618  ls
+  619  mkdir Python
+  620  cd Python/
+  621  mkdireditdojo
+  622  mkdir editdojo
+  623  cd editdojo/
+  624  pipenv install django=2.1
+  625  pipenv install django==2.1
+  626  cd Desktop/Python/editdojo/
+  627  pipenc
+  628  pipenv
+  629  pip3
+  630  pip3 install pipenv
+  631  python3 --version
+  632  python3 install pip3
+  633  pip3
+  634  brew
+  635  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/uninstall)"
+  636  pip3
+  637  cd Desktop/Python/editdojo/
+  638  pipenv
+  639  pipenv install django==2.1
+  640  ls
+  641  cd Desktop/Python/edi
+  642  cd Desktop/Python/editdojo/
+  643  ls
+  644  pipenv shell
+  645  django-admin startproject editdojo_project .
+  646  ls
+  647  python manage.py runserver
+  648  python manage.py startapp hello
+  649  ls
+  650  python manage.py runserver
+  651  cd Desktop/Python/editdojo/
+  652  ls
+  653  heroku login
+  654  touch Procfile
+  655  pip install gunicorn dj-database-url whitenoise psycopg2
+  656  cd Desktop/Python/edi
+  657  cd Desktop/Python/editdojo/
+  658  pipenv shell
+  659  ls
+  660  python manage.py startapp todo
+  661  ls
+  662  python manage.py runserver
+  663  mkdir templates
+  664  python manage.py runserver
+  665  python manage.py  makemigrations
+  666  python manage.py migrate
+  667  python manage.py shell
+  668  python manage.py runserver
+  669  pip install gunicorn dj-database-url whitenoise psycopg2
+  670  python manage.py runserver
+  671  python code.py
+  672  sudo apt-get install web.py
+  673  sudo apt-get install python-webpy
+  674  python code.py
+  675  ls
+  676  python -c "import web; web.application(('/', lambda: 'success')).run()"
+  677  pip uninstall web.py
+  678  pip uninstall python-webpy
+  679  easy_install web.py
+  680  cd Desktop/Python/
+  681  ls
+  682  mkdir python-web.py
+  683  ls
+  684  cd python-web.py/
+  685  cd Desktop/
+  686  cd Python/
+  687  ls
+  688  cd editdojo/
+  689  ls
+  690  django
+  691  pipenv shell
+  692  django
+  693  ls
+  694  ccd Desktop/
+  695  cd Desktop/
+  696  ls
+  697  cd Python/
+  698  mkdir python-pro-todo
+  699  ls python-pro-todo/
+  700  ls
+  701  cd python-pro-todo/
+  702  ls
+  703  pipenv shell
+  704  django
+  705  ls
+  706  pip install django=2.1
+  707  pip install django==2.1
+  708  cd Desktop/Python/edi
+  709  cd Desktop/Python/editdojo/
+  710  dit add .
+  711  git add .
+  712  git
+  713  git init 
+  714  python manage.py runserver
+  715  pipenv shell
+  716  python manage.py runserver
+  717  heroku login
+  718  heroku create
+  719  git push heroku master
+  720  git add .
+  721  git commit -m "heelo world!"
+  722  git push heroku master
+  723  heroku create
+  724  git add .
+  725  git commit -m "asd"
+  726  git push heroku master
+  727  git add .
+  728  git commit -m "2"
+  729  git push heroku master
+  730  git add .
+  731  git commit -m "2"
+  732  git push heroku master
+  733  python manage.py collectstatic
+  734  git push heroku master
+  735  heroku config:set DISAVLE_COLLECTSTATIC=1
+  736  git push heroku master
+  737  heroku config:set DISABLE_COLLECTSTATIC=1
+  738  git push heroku master
+  739  heroku ps:scale web=1
+  740  heroku open
+  741  heroku logs
+  742  heroku open
+  743  heroku logs --tail
+  744  python manage.py runserver
+  745  heroku logs --tail
+  746  pip install gunicorn
+  747  git push heroku master
+  748  git add .
+  749  git commit -m "asd"
+  750  git push heroku master
+  751  heroku open
+  752  git add .
+  753  git commit -m "asd"
+  754  git push heroku master
+  755  heroku restart
+  756  heroku open
+  757  git add .
+  758  git commit -m "asd"
+  759  git push heroku master
+  760  git add .
+  761  git commit -m "asd"
+  762  git push heroku master
+  763  heroku open
+  764  cd..
+  765  home
+  766  ls
+  767  root
+  768  brew
+  769  rm /home/linuxbrew
+  770  rm /home/linuxbrew/.linuxbrew
+  771  rm -r /home/linuxbrew/.linuxbrew
+  772  rm -rf /home/linuxbrew/.linuxbrew
+  773  rm -rf /home/linuxbrew
+  774  rm -f /home/linuxbrew
+  775  rm -r /home/linuxbrew
+  776  ls
+  777  /bin
+  778  rm -rf /bin/brew
+  779  ls
+  780  .profile
+  781  /hom/gsinha/.profile
+  782  /home/gsinha/.profile
+  783  ls
+  784  hello
+  785  cd Desktop/DS\ WORS/
+  786  ls
+  787  cd Project/
+  788  ls
+  789  cd todoApp/
+  790  pip freeze > requirements.txt
+  791  docker
+  792  lsb_release -a 
+  793  docker build -t tutdocker:latest
+  794  docker build -t tutdocker:latest .
+  795  docker build -t flask-tutorial:latest .
+  796  docker build -t tutdocker:latest .
+  797  docker build --help
+  798  docker build -t docker-flask:latest .
+  799  sudo usermod -a -G docker $USER
+  800  docker build -t docker-flask:latest .
+  801  docker run hell-world
+  802  docker run hello-world
+  803  sudo usermod -a -G docker $USER
+  804  docker run hello-world
+  805  sudo docker ps
+  806  docker run hello-world
+  807  docker build -t docker-flask:latest .
+  808  sudo chmod 666 /var/run/docker.sock
+  809  docker build -t docker-flask:latest .
+  810  docker run --name todoApp -v$PWD/app:/app -p5000:5000 docker-flask:latest
+  811  docker run --name todoapp -v$PWD/app:/app -p5000:5000 docker-flask:latest
+  812  docker run --name todoapp -v $PWD/app:/app -p5000:5000 docker-flask:latest
+  813  docker run --name todoapp -v "$PWD/app:/app"  docker-flask:latest
+  814  docker run --name todoapp -v "$PWD:/app"  docker-flask:latest
+  815  docker run --name todoapp1 -v "$PWD:/app"  docker-flask:latest
+  816  docker run --name todoapp1 -v "$PWD:/"  docker-flask:latest
+  817  docker run --name todoapp2 -v "$PWD:/"  docker-flask:latest
+  818  docker run --name todoapp2 -v "$PWD:/app"  docker-flask:latest
+  819  docker run --name todoapp2 -v "$PWD:/todo"  docker-flask:latest
+  820  docker run --name todoapp3 -v "$PWD:/todo"  docker-flask:latest
+  821  docker run --name todoap -v "$PWD/app:/app"  docker-flask:latest
+  822  docker run --name todoap -v "$PWD/app"  docker-flask:latest
+  823  docker run --name todoap1 -v "$PWD/app"  docker-flask:latest
+  824  docker run --name todoap1 -v "$PWD:app"  docker-flask:latest
+  825  docker run --name todoap12 -v "$PWD:app"  docker-flask:latest
+  826  docker run --name todoap12 -v "$PWD/app"  docker-flask:latest
+  827  python app.py
+  828  docker run --name todoap12 -v "$PWD/app.py"  docker-flask:latest
+  829  docker run --name todoap132 -v "$PWD/app.py"  docker-flask:latest
+  830  docker start todoap132
+  831  docker start todoap13
+  832  docker start todoap1
+  833  docker ps-a
+  834  docker ps -a
+  835  docker delete todoapp
+  836  docker stop -a todoapp
+  837  docker stop --help
+  838  docker kill --help
+  839  docker kill
+  840  docker kill todoapp
+  841  docker ps -a
+  842  docker run --name todoapp -v "$PWD/app.py"  docker-flask:latest
+  843  docker remove --help
+  844  docker run -v "$PWD/app.py"  docker-flask:latest
+  845  docker ps -a
+  846  docker rm todoapp
+  847  docker rm todoapp1
+  848  docker rm todoapp2
+  849  docker rm todoapp3
+  850  docker ps -a
+  851  docker rm todoap
+  852  docker rm todoap1
+  853  docker rm todoap12
+  854  docker rm todoap132
+  855  docker ps -a
+  856  docker run --name todo -v "$PWD/app.py"  docker-flask:latest
+  857  docker start todo
+  858  docker run --name todo1 -v "$PWD/app.py"  docker-flask:latest --rm
+  859  docker run --name todo1 -v "$PWD/app.py"  docker-flask:latest --rm todo1
+  860  docker run --name todo2 -v "$PWD/app.py"  docker-flask:latest --rm todo1
+  861  docker run --name todo3 -v "$PWD/app.py"  docker-flask:latest --rm todo3
+  862  docker run --name todo4 -v "$PWD/app.py"  docker-flask:latest
+  863  docker rm todo
+  864  docker rm todo1
+  865  docker rm todo2
+  866  docker ps -a
+  867  docker rm friendly_ramanujan
+  868  docker rm tod04
+  869  docker rm todo3
+  870  docker rm todo4
+  871  docker ps -a
+  872  docker run --name todo4 -v "$PWD/app.py"  docker-flask:latest
+  873  docker run --name todo5 -v "$PWD/app.py"  docker-flask:latest
+  874  docker ps -a
+  875  docker-compose up --build
+  876  sudo apt install docker-compose
+  877  docker-compose up --build
+  878  ls
+  879  docker build -t docker-flask:latest .
+  880  docker run --name todo6 -v "$PWD/app.py"  docker-flask:latest
+  881  docker ps -a
+  882  docker rm rodo6
+  883  docker rm todo6
+  884  docker rm todo5
+  885  docker rm todo4
+  886  docker run --name flaskapp -v$PWD/app -p5000:5000 docker-flask:latest
+  887  docker run --name flaskapp -v $PWD/app -p5000:5000 docker-flask:latest
+  888  docker run --name flaskapp -v "$PWD/ap"p -p5000:5000 docker-flask:latest
+  889  docker run --name flaskapp -v "$PWD/app" -p5000:5000 docker-flask:latest
+  890  docker run --name flaskapp1 -v "$PWD/app" -p5000:5000 docker-flask:latest
+  891  ls
+  892  docker pas -a
+  893  docker ps -a
+  894  docker diff
+  895  docker diff --help
+  896  docker diff flaskapp
+  897  docker run --name flaskapp1 -v "$PWD/app" -p5000:5000 docker-flask:latest
+  898  docker ps -a
+  899  docker diff docker-flask
+  900  docker diff flaskapp
+  901  docker run flaskapp
+  902  docker run docker-flask
+  903  docker build -t docker-flask:latest .
+  904  docker run docker-flask
+  905  docker run --name flaskapp2 -v "$PWD/app" -p5000:5000 docker-flask:latest
+  906  docker run --name flaskapp3 -v "$PWD/app" -p5000:5000 docker-flask:latest
+  907  docker build -t docker-flask:latest .
+  908  docker run docker-flask
+  909  docker build -t docker-flask:latest .
+  910  docker run docker-flask
+  911  docker build -t docker-flask:latest .
+  912  docker run docker-flask
+  913  docker build -t docker-flask:latest .
+  914  docker run docker-flask
+  915  docker build -t docker-flask:latest .
+  916  docker run docker-flask
+  917  docker build -t docker-flask:latest .
+  918  docker run docker-flask
+  919  docker build -t docker-flask:latest .
+  920  docker run --name flaskappnew -v "$PWD/app" -p5000:5000 docker-flask:latest
+  921  docker run docker-flask
+  922  docker build -t docker-flask:latest .
+  923  docker run docker-flask
+  924  docker build -t docker-flask:latest .
+  925  docker run docker-flask
+  926  docker run --name flaskappnew1 -v "$PWD/app" -p5000:5000 docker-flask:latest
+  927  docker run flask-app
+  928  docker run docker-flask
+  929  docker build -t docker-flask:latest .
+  930  docker run docker-flask
+  931  docker run --name flaskappnew2 -v "$PWD/app" -p5000:5000 docker-flask:latest
+  932  cat ~/.bash_history
+  933  history
+  934  history > print.txt
