@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 import pickle
 from sklearn.preprocessing import StandardScaler
 
-def createmodel_Contact():
+def createmodel_Contact(item_id=5):
     path = './data/contacts1.csv'
     data = pd.read_csv(path)
     #print("df shape:", data.shape)
@@ -19,22 +19,7 @@ def createmodel_Contact():
     scaler = StandardScaler()
     data_scaled = scaler.fit_transform(data)
 
-    # statistics of scaled data
-    pd.DataFrame(data_scaled).describe()
-
-    # defining the kmeans function with initialization as k-means++
-    kmeans = KMeans(n_clusters=2, init='k-means++')
-
-    # fitting the k means algorithm on scaled data
-    kmeans.fit(data_scaled)
-
-    SSE = []
-    for cluster in range(1, 20):
-        kmeans = KMeans(n_jobs=-1, n_clusters=cluster, init='k-means++')
-        kmeans.fit(data_scaled)
-        SSE.append(kmeans.inertia_)
-
-    kmeans = KMeans(n_jobs=-1, n_clusters=5, init='k-means++')
+    kmeans = KMeans(n_jobs=-1, n_clusters=item_id, init='k-means++')
     kmeans.fit(data_scaled)
     pred = kmeans.predict(data_scaled)
 
@@ -42,13 +27,14 @@ def createmodel_Contact():
     frame['cluster'] = pred
     frame['cluster'].value_counts()
 
-    #print(frame)
+    print(frame.groupby(["cluster"]).count()[0])
 
     # save the model to disk
     filename = 'contact_model.sav'
     pickle.dump(kmeans, open(filename, 'wb'))
+    return frame.groupby(["cluster"]).count()[0].to_json(orient='columns')
 
-def createmodel_Wholesale():
+def createmodel_Wholesale(item_id=5):
     """
     https://www.analyticsvidhya.com/blog/2019/08/comprehensive-guide-k-means-clustering/
     We will be working on a wholesale customer segmentation problem. You can download the dataset using this link.
@@ -61,26 +47,11 @@ def createmodel_Wholesale():
     data = pd.read_csv(path)
     #print("df shape:", data.shape)
 
-    from sklearn.preprocessing import StandardScaler
+
     scaler = StandardScaler()
     data_scaled = scaler.fit_transform(data)
 
-    # statistics of scaled data
-    pd.DataFrame(data_scaled).describe()
-
-    # defining the kmeans function with initialization as k-means++
-    kmeans = KMeans(n_clusters=2, init='k-means++')
-
-    # fitting the k means algorithm on scaled data
-    kmeans.fit(data_scaled)
-
-    SSE = []
-    for cluster in range(1, 20):
-        kmeans = KMeans(n_jobs=-1, n_clusters=cluster, init='k-means++')
-        kmeans.fit(data_scaled)
-        SSE.append(kmeans.inertia_)
-
-    kmeans = KMeans(n_jobs=-1, n_clusters=5, init='k-means++')
+    kmeans = KMeans(n_jobs=-1, n_clusters=item_id, init='k-means++')
     kmeans.fit(data_scaled)
     pred = kmeans.predict(data_scaled)
 
@@ -91,4 +62,4 @@ def createmodel_Wholesale():
     # save the model to disk
     filename = 'finalized_model.sav'
     pickle.dump(kmeans, open(filename, 'wb'))
-
+    return frame.to_json(orient='columns')

@@ -1,6 +1,10 @@
 from models import ToDoModel
 from modelResults import prediction,prediction_contact
 from trainModel import createmodel_Contact,createmodel_Wholesale
+
+import traceback
+import logging
+
 class ToDoService:
     def __init__(self):
         self.model = ToDoModel()
@@ -26,16 +30,21 @@ def modelContact(params):
     print(params)
     return prediction_contact(params)
 
-def trainModelContact():
+def trainModelContact(item_id):
+    print(item_id)
     try:
-        createmodel_Contact()
-        return 0
+        result = createmodel_Contact(int(item_id))
+        return result
     except:
+        logging.error(traceback.format_exc())
         return -1
 
-def trainModelWH():
+
+def trainModelWH(item_id):
+
     try:
-        createmodel_Wholesale()
-        return 0
-    except:
+        result = createmodel_Wholesale(item_id)
+        return result
+    except Exception as e:
+        logging.error(traceback.format_exc())
         return -1

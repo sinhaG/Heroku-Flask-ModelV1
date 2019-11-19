@@ -54,13 +54,13 @@ def clustering():
 def clustering_contact():
     return jsonify(modelContact(request.get_json()))
 
-@app.route("/todo/traincontactModel", methods=["GET"])
-def traincontactModel():
-    return jsonify(trainModelContact())
+@app.route("/todo/traincontactModel/<name>", methods=["GET"])
+def traincontactModel(name):
+    return jsonify(trainModelContact(name))
 
-@app.route("/todo/trainWhModel", methods=["GET"])
-def trainWhModel():
-    return jsonify(trainModelWH())
+@app.route("/todo/trainWhModel/<name>", methods=["GET"])
+def trainWhModel(name):
+    return jsonify(trainModelWH(name))
 
 
 if __name__ == "__main__":
