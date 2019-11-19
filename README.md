@@ -16,7 +16,7 @@ heroku container:release web --app flaskrestmodel <br/>
 heroku open --app flaskrestmodel
 
 # endpoints
-<h2> Cureenlty this app is deployed on https://flaskrestmodel.herokuapp.com/ so all the endpoints are related to this.
+<h2> Currenlty this app is deployed on https://flaskrestmodel.herokuapp.com/ so all the endpoints are related to this.</h2>
 
 <ul>
  <li>
@@ -38,10 +38,10 @@ heroku open --app flaskrestmodel
   </li>
   
    <li>
-  <b>/todo/traincontactModel/<number> </b>: Train the contact model with given number of clusters
+  <b>/todo/traincontactModel/4 </b>: Train the contact model with given number of clusters, Here we are defining there are 4 clusters
   </li>
  
   <li>
-  <b>/todo/trainWhModel/<number> </b>: Train the wholesale model with given number of clusters
+  <b>/todo/trainWhModel/4 </b>: Train the wholesale model with given number of clusters, Here we are defining there are 4 clusters
   </li>
  <ul>
